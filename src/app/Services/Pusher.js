@@ -1,11 +1,11 @@
 import Pusher from 'pusher';
 
 var pusher = new Pusher({
-  appId: 845107,
-  key: '3f743a4b72fb3609a40b',
-  secret: '9ca56d1560e39da94ae1',
-  cluster: 'ap1',
-  useTLS: true
+  appId: process.env.APP_PUSHER_ID,
+  key: process.env.APP_PUSHER_KEY,
+  secret: process.env.APP_PUSHER_SECRET,
+  cluster: process.env.APP_PUSHER_CLUSTER,
+  useTLS: process.env.APP_PUSHER_ENCRYPTED
 });
 
 module.exports = pusher
