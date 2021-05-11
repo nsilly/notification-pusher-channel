@@ -33,7 +33,7 @@
     "@nsilly/exceptions": "^3.0.3",
     "@nsilly/support": "*",
     "aws-sdk": "^2.230.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "mandrill-api": "^1.0.45",
     "nodemailer": "^5.1.1",
     "pusher": "^3.0.0"
